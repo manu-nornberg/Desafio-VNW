@@ -13,11 +13,9 @@ function Header() {
         </section>
         <nav>
           <ul>
-            <a href="/">Início</a>
-
-            <a href="/livros">Livros doados</a>
-
-            <a href="/doar">Quero doar</a>
+            <Link to="/">Início</Link> 
+            <Link to="/livros">Livros doados</Link> 
+            <Link to="/doar">Quero doar</Link>
           </ul>
         </nav>
         <section>

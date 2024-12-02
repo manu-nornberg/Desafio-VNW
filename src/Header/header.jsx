@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./header.scss";
-
+import search from "../img/search.png";
 
 function Header() {
   return (
@@ -24,7 +24,7 @@ function Header() {
           <form action="/buscar" method="get">
             <input type="text" name="query" placeholder="O que você procura?" aria-label="Pesquisar" />
             <button class="lupa" type="submit">
-              <img src="../src\img\search.png" />
+              <img src={search} />
             </button>
           </form>
         </section>

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import "./header.scss";
-import search from "./img/search.png";
+import search from "../img/search.png";
 
 function Header() {
   return (

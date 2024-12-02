@@ -24,7 +24,7 @@ function Header() {
           <form action="/buscar" method="get">
             <input type="text" name="query" placeholder="O que você procura?" aria-label="Pesquisar" />
             <button class="lupa" type="submit">
-              <img src="src\img\search.png" />
+              <img src="../src\img\search.png" />
             </button>
           </form>
         </section>

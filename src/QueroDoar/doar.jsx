@@ -1,7 +1,7 @@
 import Footer from "../Footer/footer";
 import Header from "../Header/header";
 import "./doar.scss";
-import Frame from "../img/Frame.png";
+import Frame from "./img/Frame.png";
 
 function Doar() {
   return (
@@ -11,7 +11,7 @@ function Doar() {
       <section class="formulario">
         <form>
           <div>
-            <Image src={Frame} />
+            <img src={Frame} />
             <h3>Informações do livro</h3>
           </div>
           <input type="text" placeholder="Titulo" />

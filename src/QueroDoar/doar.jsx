@@ -21,7 +21,7 @@ function Doar() {
     };
 
     try {
-      const response = await axios.post("http://127.0.0.1:5000/doar", livro);
+      const response = await axios.post("https://api-python-bwhw.onrender.com/doar", livro);
       console.log(response.data); 
       alert("Livro doado com sucesso!");
     } catch (error) {

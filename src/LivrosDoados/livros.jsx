@@ -9,7 +9,7 @@ function Livros() {
 
   const fetchLivros = async () => {
     try {
-      const response = await axios.get("http://127.0.0.1:5000/livros");
+      const response = await axios.get("https://api-python-bwhw.onrender.com/livros");
       setLivros(response.data);  
     } catch (error) {
       console.error("Erro ao buscar os livros:", error);
@@ -18,7 +18,7 @@ function Livros() {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`http://127.0.0.1:5000/livros/${id}`);
+      await axios.delete(`https://api-python-bwhw.onrender.com/livros/${id}`);
       alert("Livro excluído com sucesso!");
       fetchLivros(); 
     } catch (error) {

@@ -11,8 +11,9 @@ Esta é uma API em Python que permite aos usuários doarem livros e visualizar l
 * SQLite (ou outro banco de dados de sua preferência)
 
 ### EndPoints da API
-1. POST /livros/doar
-Este endpoint permite aos usuários doar livros para a plataforma. O corpo da solicitação deve conter as informações do livro.
+<b> 1. POST (/livros/doar) </b>
+
+ Este endpoint permite aos usuários doar livros para a plataforma. O corpo da solicitação deve conter as informações do livro.
 
 * Requisição:
 
@@ -20,8 +21,9 @@ Este endpoint permite aos usuários doar livros para a plataforma. O corpo da so
 
   * URL: /doar
 
-2. GET /livros
-Este endpoint retorna a lista de livros disponíveis para doação.
+<b> 2. GET (/livros) </b>
+
+ Este endpoint retorna a lista de livros disponíveis para doação.
 
 * Requisição:
 
@@ -29,8 +31,9 @@ Este endpoint retorna a lista de livros disponíveis para doação.
 
   * URL: /livros
 
-3. DELETE /livros/{id}
-Este endpoint permite deletar um livro existente com base no seu id.
+<b> 3. DELETE (/livros/{id}) </b>
+
+ Este endpoint permite deletar um livro existente com base no seu id.
 
 * Requisição:
 

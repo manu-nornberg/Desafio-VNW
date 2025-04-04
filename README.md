@@ -13,26 +13,40 @@ Esta é uma API em Python que permite aos usuários doarem livros e visualizar l
 ### EndPoints da API
 1. POST /livros/doar
 Este endpoint permite aos usuários doar livros para a plataforma. O corpo da solicitação deve conter as informações do livro.
-Requisição:
-Método: POST
-URL: /doar
+
+* Requisição:
+
+  * Método: POST
+
+  * URL: /doar
 
 2. GET /livros
 Este endpoint retorna a lista de livros disponíveis para doação.
-Requisição:
-Método: GET
-URL: /livros
+
+* Requisição:
+
+  * Método: GET
+
+  * URL: /livros
 
 3. DELETE /livros/{id}
 Este endpoint permite deletar um livro existente com base no seu id.
-Requisição:
-Método: DELETE
-URL: /livros/{id}
+
+* Requisição:
+
+  * Método: DELETE
+
+  * URL: /livros/{id}
 
 ### Modelo de Livro
 O modelo Livro contém os seguintes campos:
-id: Identificador único do livro (inteiro, chave primária).
-titulo: Título do livro (string).
-autor: Autor do livro (string).
-genero: Gênero do livro (string).
-imagem_url: Url da imagem do livro (string).
+
+* id: Identificador único do livro (inteiro, chave primária).
+
+* titulo: Título do livro (string).
+
+* autor: Autor do livro (string).
+
+* genero: Gênero do livro (string).
+
+* imagem_url: Url da imagem do livro (string).
